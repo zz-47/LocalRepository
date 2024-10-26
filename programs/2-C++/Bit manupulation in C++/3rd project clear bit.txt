@@ -1,0 +1,23 @@
+
+
+       
+        Clear bit function :
+
+                // clearbit is used to change a given index bit to 0.
+
+                      n   =   0 1 0 1
+                 , suppose we need to clear bit at position , i = 2.
+
+                // now making a number to secure required index.
+
+                    1 << i = 0 1 0 0.
+
+                // then we take ones compliment , to flip number in 0s and 1. 
+
+                   ~ 0 1 0 0  =  1 0 1 1
+                 
+                 // now we only have 0 on required position ,i = 2.
+                    
+                  0 1 0 1  &  1 0 1 1  =  0 0 0 1
+
+                  

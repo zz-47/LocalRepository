@@ -1,0 +1,37 @@
+
+
+   A Destructor is opposite of a constructor
+
+       ,as a CONSTRUCTOR allocates memory .
+
+         Destructor de-allocates the memory allocated by a constructor.
+
+         fact : Whenever we use a constructor ,a default destructor is triggered automatically.
+
+         DEFAULT Destructor :
+                             The default / automated constructor is independently called by a constructor so , The
+                               program can reach its end  , but here an issue arises , which is ,that default 
+                                destructor only de-allocates STATICALLY ALLOCATED memory inside a Stack
+                                , where as DYNAMICALLY Allocated present openly in Heap memory stays their until 
+                                        a destructor is not called by the programmer.
+
+
+                     // Suppose their is a (new *ptr) being allocated a memory location inside Heap , to de-allocated
+                          Or destruct the allocation we'll used delete(); function.
+
+
+          EXAMPLE :
+
+                    100 is an address openly present inside Heap , a pointer (*ptr) is pointing towards a memory location 
+                      55 in the address 100 , to clean up the memory allocated to (*ptr) , we use (delete ptr)
+                        , which only and only deletes allocated memory ,not the pointer itself.                                     
+
+
+                                    Simple syntax :
+
+                                       ~classname() {
+
+                                         // step to delete dynamic memory.
+                                          delete Ptr;
+                                       }
+

@@ -1,0 +1,9 @@
+
+
+
+      Static functions in objects :
+ 
+
+            The static functions in  a class are created & initiallized once And are shared by all the objects . // in class
+                      
+

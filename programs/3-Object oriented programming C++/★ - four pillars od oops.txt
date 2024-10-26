@@ -1,0 +1,10 @@
+ The four pillars of Object oriented programming are :
+
+
+   1- Inheritance : Inheritance of references and objects.
+
+   2- Polymorphism : 
+
+   3- Encapsulation : creating a capsule of data relevant to a persona.
+
+   4- Data Abrstraction : 

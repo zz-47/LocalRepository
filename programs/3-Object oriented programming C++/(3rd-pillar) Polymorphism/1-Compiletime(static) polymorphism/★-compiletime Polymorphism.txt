@@ -1,0 +1,10 @@
+
+
+   Compiletime Overloading :
+
+                compiletime polymorphism is STATIC .i.e
+                              
+                               function overloading :
+
+                                   function overloading is creating 2 functions with same name ,but their parameters
+                                     are different .

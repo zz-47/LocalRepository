@@ -1,0 +1,22 @@
+
+ C language :
+
+ Created in 1972 by DENNIS RITCHE and BEL-Labs to make as operating system called UNIX which was then changed to linux.
+
+              , was a huge development of innovation around the globe ,as from creation till now it has 
+               huge imapct on our lives ,as almost all the Operating Systems (OS) and kernels are written in 
+                C language because of following reasons :
+
+            PROS:
+
+                > C : is a statically typed procedural language .
+                > C : is Mother of all languages ,inspiring syntax of C++ , C# , java , javascript , pearl and PHP
+                > C : compiles directly to machine language / assembly language.
+                > C : requires minimal runtime support.
+                > C : is HIGH Level human language providing control over LOW Level computer assembly code.
+
+            CONS:
+
+                > C : is platform dependent as creates different executable on different Operating Systems.
+                > C : is case sensitive / sensitive to logical errors.
+                

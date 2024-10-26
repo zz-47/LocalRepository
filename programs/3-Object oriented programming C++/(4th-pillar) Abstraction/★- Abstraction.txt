@@ -1,0 +1,39 @@
+
+    ABSTRACTION :
+
+                 " Abstraction is hidding all the Unneccessary details   &   Showing all the neccessary parts. "
+
+
+        // Fact / instruction :
+
+         1- Implementation by ACCESS SPECIFIERS :
+
+            
+                    Abstraction is implemented by using specific Access modifiers ( Public , Private , Protected ) .   
+                     .i.e :
+
+                       -> We put ( Unneccessary ) details in ( Private ) access specifier .   
+                       -> We put ( neccessary ) details in ( public ) access specifier.
+                       -> We put ( Unneccessary , but inheritable ) details in ( protected ) access specifiers
+                            And print them using freindfunctions.
+
+         2- Implementation by ABSTRACT CLASSES :
+           
+                     Abstraction is also implemented by using ABSTRACTION CLASSES by using abstract keyword or using
+                     pure vitrual functions ,as
+
+                        abstract class {
+
+                        };
+
+
+                         USE of ABSTRACT CLASSES :
+
+                                 -> We can never create an object of abstract class ,as it acts as a blueprint ( for
+                                      other classes ). 
+
+                                 -> Used as base class only for inheritance purpose ( providing a map )  derived classes.
+
+                                 -> They cann't be instanced(creation of objects) , are only for inheritance.\
+
+                                 -> These are used to define ( layout / interface ) , for derived classes

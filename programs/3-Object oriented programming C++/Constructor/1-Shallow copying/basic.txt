@@ -1,0 +1,16 @@
+
+Shallow :
+
+         A shallow copy of an object copies all of the member values from one object to another.
+
+            Scenarios :
+
+            >-> In copying an object in side a stack has no problem 
+
+            >-> The issue in shallow copying arises ,when we allocate memory dynamically using keyword
+    
+                  ( new ) . i.e      (new int [5];)   will dynamically allocate memory for 5 integer type variables 
+
+                the above dynamically allocated memory is allocated in heap (open) instead of stack(enclosed) form.
+
+                

@@ -1,0 +1,7 @@
+
+
+   Static variables :
+
+               
+                 STATIC functions created in a FUNCTION();  are created / initiallized only single time 
+                  in the lifetime of a program,  // in FUNCTION.

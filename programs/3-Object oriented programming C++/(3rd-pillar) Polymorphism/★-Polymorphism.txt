@@ -1,0 +1,20 @@
+
+    
+
+     POLYMORPHISM : 
+        
+           here , "poly" stands for "multiple"   and "Morph" means "Forms".
+
+                 Polymorphism is the ability (of OBJECT) to TAKE (DIFFERENT forms) or behave in different 
+                 ways (Depending on the context of code ) in ,which they are used.
+
+
+          TWO TYPES of Polymorphism :
+
+            1 - compiletime polymorphism
+
+            2 - runtime polymorphism 
+ 
+          Example :-
+
+                1- constructor overloading (using more than 2 constructors in a class)

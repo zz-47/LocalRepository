@@ -1,0 +1,17 @@
+       
+       // In git there are two types of changings :
+
+         1- Gobal changes are for the whole system ,through single email.
+         2- Local changes are for only a specified Repository , through a different email /
+           intruction : it is mainly used by devs with multiple emails. 
+
+>>>  configurations for a single account / global changes :
+
+    
+       git config --global user.name " My Name "
+
+
+       git config --global user.email "786roshaan007@gmail.com" 
+
+
+       git config --list

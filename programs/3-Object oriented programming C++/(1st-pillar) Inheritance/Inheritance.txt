@@ -1,0 +1,33 @@
+
+
+    Inheritance :
+
+                          O     class1 with required attributes
+                        / | \      Inherits
+                       O  O  O    class2 inheriting attributes of class1.
+
+                - its possible to Inherit attributes and methods from one class to another.
+
+
+
+                    /---------------------- Inheritance ----------------------\            
+                   /                                                           \     
+              Base class                                                  Derived class
+               (parent)                                                      (Child)
+
+    -> based class : the class that is, being                    -> Derived Class : the class , that Inherits
+                       inherited from                                                from other class 
+                            OR                                                             OR
+                     GIVES attributes to                                             Gets attributes from 
+                        second class                                                      first class
+
+
+           Types of inheritance :
+
+                                1 . Single class inheritance
+                                2 . Multiple class inheritance
+                                3 . Multiple level inheritance 
+                                4 . Hybrid inheritance 
+                                5 . Hierarchical inheritance
+                                
+                                             

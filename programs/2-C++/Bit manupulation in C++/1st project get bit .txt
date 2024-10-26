@@ -1,0 +1,29 @@
+
+
+   Get bit function :
+
+     >> suppose we have 5 in binary language ,
+                             positions          3  2  1  0    <---- movement / direction.
+                                           n =  0  1  0  1
+
+                                    , suppose we requie get bit at position , i=2.
+
+                                ,we'll use left hift operator ( << ).
+                                          // we made 0 1 0 0 , just to secure 1 at index 2. 
+                             ,as  1 << i = 0 1 0 0         // lleftshift operator moves bits to left direction     
+                                // used to flip to get 01 at required index 2.
+
+                           , then we'll apply and & (AND operator)
+                             
+                             ,as  0 1 0 1    &   0 1 0 0    =  0 1 0 0    
+                             
+                             // truth table of & reqired (  0 0 and 1 1  )   or (  0 1 / 1 0  ) 
+                             
+                              hence at index 2 it converted 0 1  to 0.
+
+                              //     The required index is  2 so after fliping 1 stands at index 3.
+
+                            at the end we'll use check :
+
+                                if   n & ( 1 << i ) ! = 0  , then bit 1.                               
+                                                            

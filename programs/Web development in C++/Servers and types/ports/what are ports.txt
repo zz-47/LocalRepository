@@ -1,0 +1,57 @@
+
+
+  PORTS :
+          The ports are virtual openings with Start and End points with access to specific servers
+
+
+          Types of Ports :
+
+                         o - All-ports : start from (port 0)   &    end at (port 65535)
+                  
+                         1 - Well-Know-Ports : start from (port 0)   &   end at (port 1023)
+                         2 - Registered-ports : start from (port 1023)   &   end at (port 49151)
+                         3 - Dynamic-ports : start from (port 49152)   &   end at (port 65535)
+                          
+
+        Uses of ports :
+
+
+                 >> Well-known-ports : are used by world wide web (www.) , .i.e webs like FB,YT and Instagram etc.
+
+                 
+------------------------------------------------------------------------------------------------------------------------
+
+
+                 >> Registered-ports : are used by specific Apps .i.e if you make an App you can register it on    
+                                       website of (IANA) Internet Assigned Number Authority , just like registration 
+                                         of a vehicle.
+------------------------------------------------------------------------------------------------------------------------
+                 >> Dynamic-ports : are used by Computers dynamically
+
+                      For Example :
+                                   
+                                    system(1234)                       system(5678)   // opens facebook
+                                         A                                  B
+// if U're using Facebook                |                                  ^
+system generates random code             |                                  ^ // ALSO generates A code (5678 , 443)
+                                         |                                  |
+                                  (1234 , 49158) -----------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+
+     also :
+
+        TCP (tansmission control protocol) has (0-65535)   + UDP (user datagram protocol) has (0-65535 ports)
+
+                                   Resulting in to total 131070 ports
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+         Port 80 = HTTP (Hyper Text Transfer protocol ) traffic 
+
+         Port 8080 = HTTP (Hyper Text Tansfere protocol ) traffic  (alternative)
+
+         port 443 = HTTPS (Hyper Text Transfere Protocol Secured) secure (alternative)
+
+------------------------------------------------------------------------------------------------------------------------         

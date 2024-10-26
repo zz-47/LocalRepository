@@ -1,0 +1,131 @@
+
+
+  API : stands for Application Programming Interface.
+
+      here, 
+
+           Application is any program / software , which has a function to it
+
+           Interface referes to a contract or protocol 
+           , that dictates ( how two applications talk to each other using requests and responses )
+
+            so, 
+                   API's are used two connect two applications for communication
+
+---------------------------------------------------------------------------------------------------
+
+     Requesting :
+
+
+      client app                                                 Host Map
+
+  ------------------                                        ------------------
+  |                |                                        |                |
+  |                |   requests            requests         |                |
+  |  food delivery |  ----------->    API ----------->      |      Google    |
+  |      app       |                                        |       map      |
+  |                |                                        |                |
+  ------------------                                        ------------------
+
+
+---------------------------------------------------------------------------------------------------
+
+    Responding :
+
+
+    client app                                                  Host Map
+
+  ------------------                                        ------------------
+  |                |                                        |                |
+  |                |   responds            responds         |                |
+  |  food delivery |  <-----------    API <-----------      |      Google    |
+  |      app       |                                        |       map      |
+  |                |                                        |                |
+  ------------------                                        ------------------
+
+----------------------------------------------------------------------------------------------------
+
+
+
+
+          >>>  API's don't tell how to make some thing , but gives client a pre-made product.
+
+             >>> Apps use API keys to work with google user accounts/facebook user accounts  
+
+                
+                      Types of API's used by appstores :
+
+                            Payed apps : use paid type API to secure from hackers / cracks.
+
+                            Free apps : use free type of API open to all users.
+
+
+    Funfact :   API's ae alsp used to display Governmental Ads .i.e governments concern about a virus Covid-19
+
+
+
+                                  Main Types of API's used in C++ :
+
+            1 - REST API :
+
+                 rest API's are based on HTTP (Hyper text tansfer protocol ), which includes functions like :
+
+                     GET, POST, PUT, DELETE
+
+            another feature of Rest API's is (Stateless client-server model) :
+
+                  serever doesn't store any information about the clients state b/w requests
+                  ,that means API contains all neccessary information required by the server
+                  ,which makes REST API's (scalable and easy to maintain) . 
+
+     Q : when to use Rest API ?
+     
+     A : while building web services , that require a stateless, scalable, And easy to maintain architecture
+     .i.e Apps with CRUD (CREATE,READ,UPDATE&DELETE) operations.
+
+  
+
+           2 - WEB API : 
+
+                       This type of API is a broader type ,as it has power to control All other types of API'scalable
+                          (REST API, SOAP, XML, XML-RPC,etc)
+
+                Q : where to use ? 
+
+                A : Platform independent apps which are on WINDOWS ,LINUX ,MAC OS,ANDROID , Applestore.
+
+
+                Protocols used by WEB API's to communicate b/w clients and servers :
+
+                     1 - HTTP
+                     2 - HTTPS
+                     # - TCP/IP        
+
+       >> WEB API's does not follow any architecture , architecture can be decided by uses of complex application
+
+             
+             
+             SOAP API :
+
+             SOAP stands for (Simple Object Access Protocol)
+
+                This is used to exchange structured data b/w different applications.
+
+                This API is (platform as well as Language independent)
+
+                format used for it is (.XML)
+
+
+                It provides multiple protocols :
+
+                   1- HTTP : hyper text tanfer protocol
+                   2- SMTP : Simple mail transfer protocol // used for emails 
+                   3- FTP  : File Transfer Protocol // used by google drive
+
+                  
+               It defines set of rules for exchanging messages Which are written in WSDL(WEB SERCVICE DESCRIPTION LANGUAGE)   
+
+
+          This type of API is also used for Applictions with Digital signatures and encryption // used by whatsapp
+
+          

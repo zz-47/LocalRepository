@@ -1,0 +1,32 @@
+   -----------------------------------              Linked list             -------------------------------------------
+
+     > linked list is a linear data structure ,that stores data as list of values 
+     > arrays are similar ,but different ( i.e samesame ,but diflant )
+     > arrays are single blocks of memeory with partitions , while linked list consists of different blocks
+       of memory connected to each other. 
+     
+         >> Limitations of arrays are  :
+
+            -> fixed size 
+            -> contiguous / single block of memory
+            -> insertion or deletion is costly.
+
+         >> Properties fo linked list :
+
+            -> size can be modified 
+            -> non- contiguous memory 
+            -> insertion and deletion at any point is easy
+
+               linked lists:
+
+                  a singlllle block of list is known as node its strucrue is :
+
+                         |      |      |
+                NODE     | data | next |
+                         |      |      |
+                          
+                          , here data stores datatypes .i.e int , float ,char etc.
+
+                          , next is pointer , which points location of next NODE.
+                             also last node will have next = null
+                             

@@ -1,0 +1,40 @@
+
+
+     -------------------------  First of all C is much more complex than C++ --------------------------------------
+
+        > C++ is descendant / inherited language from C language.  
+        > C has a significance in hacking , sepecially ( C encorporated with Python )
+        > C & C++ are both case sensitive .
+        > Both are "Platform dependent" , as only used in a few Platforms , not as python , java or css ,etc.
+        > After all C++ is much easier ,than C.
+
+
+        Diference / Facts :
+
+     C langauge :
+
+      > C is a complex and sensitive langauge.
+      > C has harder syntax .
+      > C programming is intennce due to data types.
+      > C is a " machine dependent " language , as it does not run on any machine.
+      > C is much more diverse & powerfull in hacking.
+      > C is much close to low level language.
+      > BTW it doesn't have Objective Oriented Programming (OOPs).
+
+    C++ langauge :
+
+      > C++ is reletively easier .
+      > C++ is much more simpler in syntax , due to no datatypes.
+      > C++ is " machine independent " langauge .
+      > ,but C++ is platform dependent as only runs on a few (.i.e Windows , Linux or Mac) , but donot run on combination of kernels.
+      > Here b it gets beaten up by Python.
+      > python covers diverse kernels and Operating Systems ( OS ).
+      > C++ is a Middle level language .
+      > C++ It does have Object oriented Programming.
+      > C++ is "platform dependent" , because :
+
+              For WINDOWS gives :       .exe 
+              For MAC gives     :       .dmg
+              For LINUX gives   :       .elf
+
+           , which makes an app non-compatible with different combinations of tohose OS's   

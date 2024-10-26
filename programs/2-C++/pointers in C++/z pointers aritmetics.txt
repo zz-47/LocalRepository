@@ -1,0 +1,18 @@
+ 
+ ---------------   Pointer Arithematics is relevant to increement,decreement ,addition or subtraction   ------------------------ 
+
+     suppose a suorce code :
+
+
+    int a = 10;
+    int *aptr = &a;  ------> here its supposed value is 2000 
+
+    aptr++; ----------> here , value of aptr will be increased  to 2004 ,because (int) datatype is of 4-bits
+      cout << aptr << endl; 
+
+     > if we use char or other datatypes then value will change according to them. 
+     > decreement also does the same ,but vice versa.
+     > addition  or subraction will increase or decreese value according to datatypes.
+     
+    
+      

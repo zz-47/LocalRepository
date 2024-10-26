@@ -1,0 +1,107 @@
+github password = zeeshan4759
+
+
+                     ***  For doing changes in already existing repositories  ***
+  
+
+
+
+1 - Clone - Cloning a repository on our local machine :
+
+     git clone <- some link ->
+
+       /* there are two different types of cloning procedures 
+
+         its either cloning a repository :
+
+          > remote: remotely from github
+          > Local: on computer repositories are cloned
+
+          // we can use different protocols such as SSH / HTTP / Github Cloning
+           , but we'll use HTTPS as its biginner friendly
+          
+
+            // we can change the directory by using "cd" then using the name of git folder
+                
+
+            // we can show all file using "ls" comand 
+            // also we can see hidden files using "ls -a"
+                                                          */
+
+
+   2- Status - displays the state of the code
+
+               git status
+
+
+      // upon no changes it will show all clear state , but if we do some changes in a file 
+         it will give error and asks us to add and then commit the changes
+
+         >> there are four different types of git statuses :
+
+      1- untracked  :
+                     New files ,that git doesn't track
+ 
+      2- modified   :
+                      changed
+
+      3- staged     :
+                      file is ready to be committed
+       
+      4- unmodified : 
+                      unchanged
+
+       // Now to change the status to nothing has happened we'll do a 2 step process 
+
+          1- we'll add the changes / they will be staged.
+          2- we'll commit changes / it'llmake it unchanged
+
+
+   3-  Add - adds new or changed files in your working directory to the git staging area.
+
+            git add <- filename ->
+
+          // this step is used for tracking / engaging purposes.
+
+   4- it is the record of change .
+
+           git commit -m "some message"
+
+         // used to ovverride the files / save new ones.
+
+   
+
+
+     3- Push command -  push - upload local repo content to remote repo
+ 
+              git push origin main      
+
+ >> here git push is that we wanna push changes / local repository
+
+>> origin means assigning address to a remote and default repostory of the authorized account on github
+
+ // this was a direct push.
+
+
+    
+
+
+                  ***   For uploading your local / only on machine repository  ***    
+
+
+
+
+    1- Init command - Used to create a new git repository...
+
+          
+          git init
+
+          git remote add origin <-link->
+
+          git remote -v                  (to verify remote)
+
+          git branch                     (to check branch)
+
+          git branch -M main             (To rename branch)
+ 
+          git push origin main

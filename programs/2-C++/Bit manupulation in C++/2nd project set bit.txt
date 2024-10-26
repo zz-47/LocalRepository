@@ -1,0 +1,28 @@
+  
+  
+    Set bit function :  
+  
+  
+  
+  Here in this case we are required to set bit in a given place .
+
+      >>> Seting a bit means putting , 1 at given index.
+      >>> UnSetting a bit means putting , 0 at given index.
+
+
+         suppose we require to set bit at position 1 in the bit :
+
+        .                                                    n    =    0   1   0   1 
+
+          //           now we,ll make a number    0 0 1 0   to secure required index.
+
+            ,then 
+                      1 << i = 0 0 1 0
+
+                    // now using  |  ( OR operator ) 
+
+                       0 1 0 1  |   0 0 1 0  =  0 1 1 1
+
+                       // | OR stops 00 , considers  ( 0 1 ,  1 0 ,  1 1 ) = 1.
+
+                       

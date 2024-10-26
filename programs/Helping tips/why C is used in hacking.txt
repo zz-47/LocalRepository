@@ -1,0 +1,41 @@
+
+
+         --------------------------------- Uses of C language in hacking --------------------------------------------
+
+
+
+         > C is used to write operating systems (OS) , like linux and windows , as well as is foundation of every linux kernel.
+         > C is a middle level language ,which is hard to learn and faster.
+         > C requires specific compiler to be compiled .i.e TurboC++ and vs code.
+         
+             ----> Q: why C attracts hackers ?
+                   
+                          Answer:
+
+                 > C language allows to mess/change hardware details .i.e memory addresses
+                      ,which allows the hackers to exploit buffer overflows and other vulnerabilities.
+
+                        >>BUFFER OVERFLOW : it occurs when data oveflows a designated memory buffer, and spill
+                        to adjescent reigions allowing hackers to overwrite critical parts of memory 
+                                                  OR
+                                    Simply enjecting mallitious code.                        .
+                 
+                 >   Another vulnerability is Kernel level programming ,which allows them to bypass security restriction
+                      or change system behaviour , being unauthorized.
+
+
+                 > Performance and eficency is also a reason , which allows hackers to make quicker exploits , that 
+                         work before security threat alarm rings.
+
+                 > Reverse engineering of OS and kernel , which allows them to see everything internally ,
+                      resulting in development of custom exploits.
+
+                 > C is popular in creation of shell codes which allows injection and revere injection of exploits to different
+                        machine , which are more efficent due to kernels and Os written in C.
+
+                 > Development of specifically designed tools and expliots focusing on automation of 
+                        a single task in hacking.
+
+        Conclusion : all low level language interction previllages make C language and much more usefull tool in 
+                          hacking purposes , BTW this is only a single weapon in the whole arsenal
+                                             of tools in cybersecurity.                                 

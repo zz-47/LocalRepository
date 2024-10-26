@@ -1,0 +1,72 @@
+
+ A class is basically representes a group of similar objects ,which holds its own data members and 
+ member functions together
+
+
+
+  Simple syntax of a class:
+
+      class Class_name
+      {
+        Access Specifier;
+
+        Data members;
+
+        Member functions(){
+            //body.
+        }
+      }
+
+             > Access specifiers :
+
+                                 >> private members : can only be accessed from within the class 
+                                 >> Public member : can only be accessed within as well as outside the class
+                                 >> Protected member : can be accessed both in&out of the class with help
+                                                        of a friend function.
+
+             > Data members :
+
+                  >  member variabbles -> object of a class :
+
+                                object is defined as an instance of a class , as if we create class
+                                 no memory is allocated , but upon creation of an object memory is allocated.
+
+                                    >> syntax of object:  Class_name Object_name;
+                                    >> Example : State st;
+                                                // here State = Class  &   st = Object_name
+
+             > Member functions :
+
+                          // also know as methods                                              
+
+                          these are invoke by sending messages by instance/object of a class with help of
+                           (.) dot operator
+
+                           i.e if the name of object = obj   &   the name of functions is sum.
+                             
+                             Example : obj.sum()
+
+             > constructor :
+
+               its b a special type of member function of a class that is called automatically , whenever an
+                 object is created.
+
+                   >> Types :
+
+                       1-parameterized :
+                                      
+                                      Class_name(arguments); 
+                       
+                       2-non-parameterized :
+                                     
+                                      Class_name();
+
+             > Destructor : 
+
+                  it works as viceversa of constructor
+
+                    >> Syntax :
+
+                          -Constructor_name();
+                          
+                                                  

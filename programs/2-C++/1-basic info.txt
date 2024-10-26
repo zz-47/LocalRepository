@@ -1,0 +1,6 @@
+
+C++ language :
+
+              was created in 1979 by BJARNE STROUSTRUP , this language is everywhere from operating systems to tools
+                like unrealengine 5 to compiler and virtual machines , C++ is superset of C ,as all syntax of C can be 
+                 used in C++ ,but an additional thing is it has Classes and Objects , instead of structs in C. 

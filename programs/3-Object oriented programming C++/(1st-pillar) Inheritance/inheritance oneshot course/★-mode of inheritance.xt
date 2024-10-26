@@ -1,0 +1,13 @@
+
+
+|-------------------------------------------------------------------------|
+|              |    Derived class  |  Derived class   |   Derived class   |
+|-------------------------------------------------------------------------|
+|Base class    |  private mode     |  Protected mode  |  Public mode      |
+|              |                   |                  |                   |   
+|Private       |  Not inherited    | Not inheited     |  Not inheited     |
+|              |                   |                  |                   |
+|Protected     |  Private          |  Pretected       |   Protected       |
+|              |                   |                  |                   |
+|Public        |  Private          |  Protected       |   Public          |
+|-------------------------------------------------------------------------|                                          

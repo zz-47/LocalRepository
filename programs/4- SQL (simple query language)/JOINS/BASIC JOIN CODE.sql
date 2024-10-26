@@ -1,0 +1,7 @@
+
+ -- JUST NEED TO DO CHANGES IN LINE 6 WITH JOIN YOU CAN add( INNER , LEFT , RIGHT , OUTTER)
+ 
+SELECT 
+* FROM Users
+JOIN likes
+ON User.Id = likes.Id 

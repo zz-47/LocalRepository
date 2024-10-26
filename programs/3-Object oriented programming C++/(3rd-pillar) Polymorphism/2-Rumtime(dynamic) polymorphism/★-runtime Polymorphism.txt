@@ -1,0 +1,45 @@
+
+
+
+      RUNTIME POLYMORPHISM :
+
+         
+         
+           Example :
+            
+                     Function overriding :
+                                          
+                                   "Function overriding is much dependent to INHERTANCE b/w parent and child classes
+                            PARENT class and Child class both contain same function with different implementations".
+                           
+            
+            
+               FACT :     Parent class function is said to be overriden by Child class , as parent function is ignored
+                         and child functions is read because of child object used to call the function
+
+
+                        --------  ALL THE ABOVE IS DECIDED WHILE RUNTIME  --------
+
+
+          Example : 
+
+                    Virtual Functions :
+
+                                       A Virtual function is much relevant   to   overriding  to be very specific ,
+
+                Def :   " A virtual is a member funtion ,that you expected to be redefined in derived classes ".
+
+                     SYNTAX :
+
+                         Base class :
+
+                                    virtual func() {
+                                        -- code --   
+                                    }
+
+
+                         Derived class :
+
+                                        func() {
+                                          -- code --
+                                        }
