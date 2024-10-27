@@ -1,0 +1,15 @@
+Page layout techniques :
+
+
+
+     using semantic tags for layout 
+
+
+     using rught tags
+
+
+     <header>
+
+     <main>
+
+     <footer>

@@ -1,0 +1,19 @@
+
+It is denoted by <h> </h>  , here numbering will set priority
+
+ HEADING Tag :
+
+
+        Used to display headings in HTML
+
+        H1   (BIGGEST AND MOST IMPORTANT TAG)
+        H2
+        H3
+        H4
+        H5
+        H6   (SMALLEST AND LEAST IMPORTANT TAG)
+
+
+
+
+        // HEADING TAGS ARE USED TO SHOW IMPORTANCE OF TAGS DURING SEARCH ENGIN OPTIMIZATION (SEO)

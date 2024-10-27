@@ -1,0 +1,9 @@
+SPAN Tag :
+
+
+    Span is also container used for other HTML elements , Inline Element (takes width as per size)
+
+      // used only the space accuired by text or other elements.
+
+
+      

@@ -1,0 +1,62 @@
+TABLES IN HTML :
+
+
+       Tables are used to represent real life table data
+
+
+       <tr>    used to display table row
+
+       <td>    used to display table data
+
+       <th>    used to display table header
+
+
+
+
+       STRUCTURE  :
+
+
+
+          <table>
+
+              <tr>
+
+                 <th> Name </th>
+                 <th> Rollno. </th>
+
+              </tr>
+              <tr>
+
+                  <th> Zeeshan <th>
+                  <th> 6990 <th>
+
+              </tr>
+         
+          </table>           
+
+
+
+
+          Caption : used to give name to the table .
+
+
+           <caption> This is caption </CAPTION>
+
+
+
+
+           
+           
+           Table Head : to wrap table head.
+
+             
+             <thead>
+
+
+           
+           
+           
+           Table Body : to wrap thable Body
+
+             
+             <tbody>  

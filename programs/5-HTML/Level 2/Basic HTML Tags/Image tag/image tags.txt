@@ -1,0 +1,13 @@
+IMAGE TAG :
+
+             used to add image to your page
+
+
+       .i.e 
+
+
+           <img src = " /image.png" alt = "Random Image">  
+
+                             ^
+                             |
+                       relative URL        

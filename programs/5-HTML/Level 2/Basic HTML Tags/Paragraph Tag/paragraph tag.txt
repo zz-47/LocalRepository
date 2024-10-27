@@ -1,0 +1,12 @@
+Its denoted by <p> </p>
+
+
+Paragraph Tag :
+
+       used to add paragraphs in HTML
+
+
+    .i.e
+
+
+           <p> This is a sample paragraph </p>   

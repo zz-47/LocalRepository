@@ -1,0 +1,16 @@
+BOLD , Italic & underline Tags :
+
+
+       used to highlight text in your page
+
+
+       .i.e 
+
+
+       <b> BOLD </b>
+
+
+       <i> Italic </i>
+
+
+       <u> Underline </u>

@@ -1,0 +1,16 @@
+
+
+REVISITING ANCHOR TAG :
+
+
+
+
+           <a href = "https:/google.com" target ="_main"> Google </a>
+
+                                           ^
+                                           |
+                                for opening link in newtab   
+
+
+
+           <a href = "https:/google.com" > <img src = "link" > </a>                     

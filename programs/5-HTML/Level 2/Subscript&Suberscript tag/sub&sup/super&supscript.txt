@@ -1,0 +1,21 @@
+SUBSCRIPT & SUPERSCRIPT TAG :
+
+                               used to display fromulas.
+
+
+                  >> Sub script :
+
+
+                       <sub> subscript </sub> 
+
+
+                       .i.e  H20
+
+
+                  >>  Sub script :
+
+
+                       <sup> superscript </sup>
+
+
+                       .i.e    A^n + B             

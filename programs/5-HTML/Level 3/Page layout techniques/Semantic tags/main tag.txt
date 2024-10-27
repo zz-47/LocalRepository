@@ -1,0 +1,22 @@
+INSIDE MAIN TAG :
+
+
+
+  Section tag :  for a section on your page
+.i.e
+
+    <section >
+
+
+
+  Article tag :  for an article on your page
+.i.e
+
+    <article>
+
+
+  Aside tag :  for content aside main content (ads) 
+
+
+    <aside> 
+

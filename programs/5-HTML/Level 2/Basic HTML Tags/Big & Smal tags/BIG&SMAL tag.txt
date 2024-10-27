@@ -1,0 +1,14 @@
+Big and Small Tags :
+
+
+    used to display big and samll text on your page
+
+
+    .i.e
+
+
+
+    <big> TEXT </big>
+
+
+    <small> TEXT </small>

@@ -1,0 +1,6 @@
+DIV tag :
+
+Div is a container used for other HTML elements , BLOCK Element (Takes full width)
+
+
+it has no use alone , yet is used as a stucture to hold other elements in ablock

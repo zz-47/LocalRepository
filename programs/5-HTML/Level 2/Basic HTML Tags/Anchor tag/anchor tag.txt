@@ -1,0 +1,14 @@
+
+
+ANCHOR TAG :
+
+        used to add links to your page.
+
+
+   .i.e
+
+
+          <a href="https://google.com"> Google </a>
+
+
+          // here href means link     

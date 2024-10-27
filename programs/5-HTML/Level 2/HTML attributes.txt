@@ -1,0 +1,10 @@
+HTML Attributes :
+
+      Attributes are used to add more information to the tag
+      
+    .i.e
+
+        <html lang="en">
+
+        lang = "en" is an Attributes
+          // it can be writen in double cuots "" and single cuots ''.

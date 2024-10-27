@@ -1,0 +1,79 @@
+FORMS IN HTML :
+
+
+      Forms are used to collect data from the user .i.e signup / login / help requests / contact me
+
+
+      <form>
+      
+         form contents ...
+
+      </form>
+
+
+    >> ACTION in Form   :
+
+                         Action attribute is used to define what action needs to be performed when a form is submitted.
+
+                         .i.e
+
+
+                         <form action = "/action.php">
+
+
+
+
+      >>> Form ELEMENTS  :
+
+
+        >> input : 
+          
+                   <input type="text" placeholder="Enter name">
+
+
+        >> Labels :
+
+
+                  <label for="id1">
+
+                      <input type="radio" value="class X" name= "class" id=id1> 
+
+                   </label> 
+
+                  <label for="id2">
+
+                      <input type="radio" value="class X" name= "class" id=id2>
+                   </label>        
+
+
+          >> Radio buttons :  are like multiple choice qs.   
+
+
+          >> Classes & Ids 
+
+          >> Checkboxes.
+
+          >> text area :  mainly used for feedback mechanism
+
+
+          >> select :
+
+            
+            
+                <select name="city" id="city">
+
+                    <option value="Islamabad"> Islamabad </option>
+                
+                     <option value="Lahore"> Lahore </option>
+
+                     <option value="Karachi"> Karachi </option>
+
+                   </select>  
+
+
+
+          >> iframe tag :  works like an anchor tag , but is used to show website in side a website/our webpage.
+
+
+
+                     

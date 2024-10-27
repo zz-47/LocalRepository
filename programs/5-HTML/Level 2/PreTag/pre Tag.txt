@@ -1,0 +1,13 @@
+PRE Tag :
+
+
+          used to display text as it is (Without ignoring spaces & next line)
+
+
+          .i.e
+
+
+          <pre> This
+               is a sample
+                text
+          </pre>      

@@ -1,0 +1,9 @@
+Hr tag :
+
+        used to display a horizontal ruler , used to separate content
+
+
+        .i.e 
+
+
+        <hr>
