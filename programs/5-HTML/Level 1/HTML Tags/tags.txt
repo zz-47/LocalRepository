@@ -1,0 +1,21 @@
+ 
+ 
+ HTML Tags :
+
+                   A container for some content or other HTML tags.
+
+
+
+      Syntax :
+
+    //-opening tag-                     //-closing tag-
+                <p> This is a paragraph </p>             
+
+                    ------ content ----
+                
+                ---------- Element ---------    
+
+
+     HTML Element :
+
+              tags and content are collectively called elements.           

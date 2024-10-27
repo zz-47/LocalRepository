@@ -1,0 +1,45 @@
+Its a structura language.
+
+ used to provide layout for a web site
+
+ we'll require the three steps :
+
+  Level 1
+
+  Level 2
+
+  Level 3
+
+
+
+  A web site requires three components :
+
+             >> HTML CODE (STUCTURE)
+
+             >> CSS CODE (DESIGN)
+
+             >> JAVA SCRIPT (FUNCTIONALITY)
+
+             
+
+
+      HTML :
+
+
+         Hyper Text Markup Language.
+
+         HTML is the code that is used to structure a web page and its content.
+
+         The component used to design the strucute of websites are called HTML tags.
+         
+                
+
+
+   >>>  HTML is Not CASE SENSITIVE .i.e we can write both :
+
+
+    <HEAD>
+
+    or 
+
+    <head>             

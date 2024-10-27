@@ -1,0 +1,12 @@
+
+
+QUICK POINTS :
+
+
+           >>  HTML tag is parent of head & body tags
+
+           >> Most of HTML elements have opening & closing tags with content in between
+
+           >> Some tags have no content in between .i.e <br> // break tag.
+
+           >> We can use inspect element / veiw page source to edit html.
