@@ -1,0 +1,16 @@
+
+
+     1 >>  Identifiers can be combination of uppercase and lowercase letters , digiits or an underscore(_) 
+            Examples :
+            
+                ( myVariable   ,   Varible_ for_print ) all are valid python identifiers.
+
+
+
+     2 >>  An identifier can not start with variable , So while (variable1) is valid , but ( 1varible )  is not valid.
+
+
+     3 >>  We can't use special symbols like (!,@,#,$,%,^,&,*)            
+
+
+     4 >>  Identifier can be of any length.

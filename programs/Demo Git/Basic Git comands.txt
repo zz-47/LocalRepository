@@ -97,11 +97,162 @@ github password = zeeshan4759
           git init
 
           git remote add origin <-link->
+            
+            // used to add a remote repository where localrepository will be pushed... 
 
           git remote -v                  (to verify remote)
 
           git branch                     (to check branch)
 
+   // branches are mainly used by different team working on same project / copies of same project
+
           git branch -M main             (To rename branch)
  
           git push origin main
+
+   // we can set a shortcut for frequently pushed repositories as ,
+     
+          git push -u origin main
+
+     // here -u stands for upstream , which marks the origin main as default push destination  
+
+
+
+
+
+  4 - WORKFLOW :-
+
+              
+        Local Git :
+
+    
+         Github repository -> Clone -> Changes -> Add -> commit -> Push
+
+
+
+  5 - Git branches :-
+
+   
+       >> different branches are used to do commits of different types .i.e commit to a bugfix
+         
+         update or a commit to other feature updates.
+
+
+    // resultant commits of different branches are different from each other. 
+
+
+        >> Branches can be merged at a point where both last commits of each branches
+            can be released as a single update.
+
+     // this process is used in corporation where work is contigeously done / in different 
+     branches / copies of the git  / which are meant to be merged to orignal branch / copy
+
+
+
+       >>> BRANCH Commands :-
+
+                             
+
+         git branch                             (to check branch)
+
+         
+         git branch -M main                     (to rename branch)
+
+         
+         git checkout <-branch name->           (to navigate from one to another branch)
+
+
+         git checkout -b <-new branch name->     (to create new branch)
+
+
+         git branch -d <-brach name->            (to delete branch)
+
+
+
+
+     6 - MERGING Code  :-
+
+
+           >> Way1 :
+
+            
+                git diff <-branch name->       (to compare commits , branches , files & more )
+
+             
+                git merge <-branch name->      (to merge 2 branches)
+
+
+          >> Way2 :
+
+
+                Create a PR
+
+
+              >>>  PULL REQUEST :-
+
+
+                           It lets you tell about changes you've pushed to a branch in a
+                  repository on github
+
+             // mainly used to filter features of a program by asking a senior Dev to review
+                 the PR and comment out the unnecessary features.
+
+
+
+        7 - PULL Command :-
+
+
+                        git pull origin main
+
+
+     // used to fetch and download content from a remote repository and immediately update
+         repository to match that content.
+
+
+
+
+        8 - RESOLVING MERGE CONFILCTS  :-
+
+        
+              An event , that takes place when Git is unable to automatically resolve differences
+                b/w two commits.
+
+
+
+        9 - UNDOING CHANGES  :-
+
+                     
+            Case 1 : staged changes
+
+                
+                    git reset <-file name->
+
+                    git reset
+
+
+            Case 2 : commited changes (for one commit)
+
+      
+                    git reset HEAD-1
+
+
+            Case 3 : commited changes (for many commits)
+
+
+                    git reset <-commit hash->
+
+                    git reset --hard <-commit hash->
+
+
+
+           // git log :  is used to see all commits and sequences.
+
+
+
+
+           FORK : - 
+
+   a fork is a new repository that shares code and visibility settings with the orignal "upstream"      
+      repository
+
+       // Fork is a rough copy.
