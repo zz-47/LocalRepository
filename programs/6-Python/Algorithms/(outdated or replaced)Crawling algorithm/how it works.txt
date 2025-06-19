@@ -1,0 +1,5 @@
+How It Works:
+Fetching the page: The fetch_page() function sends an HTTP GET request to the given URL and returns the HTML content of the page.
+Parsing links: The parse_links() function uses BeautifulSoup to parse the HTML and extract all the links from the page. It looks for <a> tags with href attributes.
+Crawl function: The crawl() function is the core of the web crawler. It starts with a list of URLs to visit, tracks visited URLs to avoid revisiting them, and adds new links to the list of URLs to visit. The crawler will stop once it visits the maximum number of pages specified (max_pages).
+Respectful crawling: The time.sleep(1) ensures the crawler doesn't make requests too quickly, which helps to avoid overwhelming the server.

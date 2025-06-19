@@ -1,0 +1,13 @@
+How It Works:
+fetch_page(url): Sends a GET request to fetch the webpage at the given URL. If the request is successful, it returns the HTML content of the page. If an error occurs (e.g., the page doesn't exist), it returns None.
+
+extract_links(page_content): Uses BeautifulSoup to parse the HTML content of the page and extract all the hyperlinks (<a href="...">) that point to other pages. It returns a set of links to avoid duplicates.
+
+spider(start_url): This is the main spider function:
+
+It starts with the initial URL and keeps track of which pages have been visited (visited set).
+It iterates through the pages to visit by popping URLs from the to_visit list.
+For each page, it fetches the content and extracts the links.
+If the links haven't been visited before, they are added to the to_visit list.
+The spider stops after visiting max_pages or when there are no more pages left to visit.
+Respectful crawling: The time.sleep(1) pauses the spider for 1 second between requests to avoid overwhelming the server with too many rapid requests. You can adjust the sleep time based on the website's rules and your needs.
