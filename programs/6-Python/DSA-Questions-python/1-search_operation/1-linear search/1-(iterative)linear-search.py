@@ -1,3 +1,6 @@
+
+#                     The give Data sturctue have complexity of O(n)....
+
 # starting the linear search mechanism iterative approach...
 
 def linear_search(arr, target):

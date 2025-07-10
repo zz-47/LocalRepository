@@ -1,3 +1,6 @@
+
+#                     The give Data sturctue have complexity of O(n)....
+
 # Staring the code for linear search recursive approach
 
 def linear_search(arr, target, index=0):

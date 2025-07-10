@@ -1,3 +1,6 @@
+
+#                     The given Data sturctue have complexity of O(log n)....
+
 #                                 it is a recrusive version on binary search / do not uses loops.
 
 def binary_search(arr, low, high, x):

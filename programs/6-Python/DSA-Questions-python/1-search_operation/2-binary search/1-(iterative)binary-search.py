@@ -1,3 +1,6 @@
+
+#                     The given Data sturctue have complexity of O(log n)....
+
 #                                    it a iterative version of binary search  /  uses while loop
 def binary_search(arr, low, high, x):
 
