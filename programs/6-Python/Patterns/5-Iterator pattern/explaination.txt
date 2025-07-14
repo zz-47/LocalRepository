@@ -1,0 +1,41 @@
+Iterator method is a Behavioral Design Pattern that allows us to traverse the elements of 
+the collections without taking the exposure of in-depth details of the elements. It provides
+ a way to access the elements of complex data structure sequentially without repeating them.
+
+
+
+ Advantages
+
+    Single Responsibility Principle: It's really easy to extract the huge algorithms into separate classes in the Iterator method.
+    
+    Open/Closed Principle: Passing the new iterators and collections into the client code does not break the code can easily be 
+      installed into it.
+
+    Easy to use Interface: It makes the interface really simple to use and also supports the variations in the traversal of 
+     the collections.
+
+ 
+
+ Disadvantages
+ 
+    Unnecessary Wasting resources: It's not always a good habit to use the Iterator Method because sometimes it may prove as an
+     overkill of resources in a simple application where complex things are not required.
+
+    Increases Complexity: As we said earlier, using the Iterator method makes simple applications complex.
+    
+    Decreases Efficiency: Accessing elements directly is a much better option as compared to accessing elements using the iterator
+     in terms of efficiency.
+
+
+    
+    Applicability
+ 
+      
+      Limited Exposure: When you want to access the elements at the lower level
+       i.e., you are not interested in the internal implementation of the elements 
+       then it's always preferred to use the Iterator Method.
+
+
+      Traversing Unknown Data Structures: The iterator method can be easily used to 
+      traverse various types of data structures such as Trees, Graphs, Stack, Queue, etc.
+       as the code provides a couple of generic interfaces for both collections and iterators.

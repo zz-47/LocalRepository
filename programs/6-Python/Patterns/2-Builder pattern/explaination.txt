@@ -1,0 +1,44 @@
+The builder pattern is a creational design pattern that separates
+ the construction of a complex object from its representation. 
+
+ It allows you to build objects step-by-step, providing flexibility 
+ and control over the construction process, especially when dealing 
+ with objects that have numerous optional parameters or when you need
+  to create different representations of the same object. 
+
+
+>> Advantages of using Builder Method:
+
+   > Reusability: While making the various representations of the products, we can use the same
+    construction code for other representations as well.
+   
+   > Single Responsibility Principle: We can separate out both the business logic as well as the
+    complex construction code from each other.
+   
+   > Construction of the object: Here we construct our object step by step, defer construction steps or run steps recursively.
+
+
+
+>> Disadvantages of using Builder method:
+ 
+   > Code complexity increases: The complexity of our code increases, because the builder 
+    pattern requires creating multiple new classes.
+   
+   > Mutability: It requires the builder class to be mutable
+   
+   > Initialization: Data members of the class are not guaranteed to be initialized.
+
+
+
+   >>>> Applicability:
+    
+    >> Constructing Complex objects : The Builder Method allows you to construct the 
+         products step-by-step. Even, we can defer the execution of some steps without
+          breaking the final product. To create an object tree, it is handy to call the steps recursively.
+          It prevents the client code from fetching the incomplete data because 
+          it doesn't allow the exposing of an unfinished object.
+    
+    
+    >> Differ by Representations: The Builder pattern is applicable when construction of various representations 
+        of the product involves similar steps that differ only in the details. The base builder interface is used to
+         define all the construction steps while these steps are implemented by concrete builders.

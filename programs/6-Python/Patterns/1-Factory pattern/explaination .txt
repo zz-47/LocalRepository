@@ -1,0 +1,19 @@
+The Factory Method is a creational design pattern. It provides an interface for creating objects in a superclass 
+but allows subclasses to alter the type of objects that will be created.Instead of using a direct constructor (new)
+ to create an object, you use a method (the factory) that returns an instance of a class based on some logic.
+
+ 
+ 
+ Advantages of using Factory method
+
+> We can easily add new types of products without disturbing the existing client code.
+
+> Generally, tight coupling is being avoided between the products and the creator classes and objects.
+
+  
+  
+  Disadvantages of using Factory method
+
+> To create a particular concrete product object, the client might have to sub-class the creator class.
+
+> You end up with a huge number of small files i.e, cluttering the files.

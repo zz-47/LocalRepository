@@ -1,0 +1,21 @@
+
+The strategy method is Behavioral Design pattern that allows you to define the complete family of algorithms,
+ encapsulates each one and putting each of them into separate classes and also allows to interchange there objects.
+  It is implemented in Python by dynamically replacing the content of a method defined inside a class with the contents 
+of functions defined outside of the class. It enables selecting the algorithm at run-time. This method is also called as Policy Method.
+
+
+
+
+
+Key Benefits of the Strategy Pattern in this Example:
+
+
+  Flexibility: We can easily add new payment strategies (e.g., BankTransferPayment) without modifying the 
+   ShoppingCart class or existing code.
+
+  Decoupling: The ShoppingCart doesn’t need to know anything about how payments are processed. It just delegates
+   the task to the strategy.
+
+  Extensibility: If you want to add new payment methods in the future, you can do so without altering the existing 
+   classes. You only need to create a new class that implements PaymentStrategy.

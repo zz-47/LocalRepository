@@ -1,0 +1,16 @@
+Adapter method is a Structural Design Pattern which helps us in making the incompatible objects adaptable
+ to each other. The Adapter method is one of the easiest methods to understand because we have a lot of real-life
+  examples that show the analogy with it. The main purpose of this method is to create a bridge between two
+   incompatible interfaces. This method provides a different interface for a class. We can more easily understand 
+   the concept by thinking about the Cable Adapter that allows us to charge a phone somewhere that has outlets in 
+different shapes. Using this idea, we can integrate the classes that couldn't be integrated due to interface incompatibility.
+
+
+Applicability
+
+  To make classes and interfaces compatible : Adapter method is always used when we are in need to make certain classes
+   compatible to communicate.
+
+   
+  Relatable to Inheritance: When we want to reuse some piece of code i.e., classes and interfaces that lack some
+   functionalities, it can be done using the Adapter Method.

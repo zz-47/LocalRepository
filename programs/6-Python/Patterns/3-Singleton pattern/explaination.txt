@@ -1,0 +1,42 @@
+Singleton Method is a type of Creational Design pattern and is one of the simplest 
+design patterns available to us. It is a way to provide one and only one object of 
+a particular type.It involves only one class to create methods and specify the objects. 
+
+
+
+Definition: The singleton pattern is a design pattern that restricts the instantiation of a class to one object.
+
+
+
+Advantages of using the Singleton Method:
+
+
+  Initializations: An object created by the Singleton method is initialized only when it is requested for the first time.
+
+  Access to the object: We got global access to the instance of the object.
+
+  Count of instances: In singleton, method classes can't have more than one instance
+
+
+Disadvantages of using the Singleton Method: 
+
+
+  Multithread Environment: It's not easy to use the singleton method in a multithread environment,
+    because we have to take care that the multithread wouldn't create a singleton object several times.
+
+  Single responsibility principle: As the Singleton method is solving two problems at a single time, 
+    it doesn't follow the single responsibility principle.
+
+  Unit testing process: As they introduce the global state to the application, it makes the unit testing very hard.  
+
+
+
+
+
+  Applicability
+
+      Controlling over global variables: In the projects where we specifically need strong control over the global variables,
+       it is highly recommended to use Singleton Method
+
+      Daily Developers use: Singleton patterns are generally used in providing the logging, caching, thread pools, and 
+       configuration settings and are often used in conjunction with Factory design patterns.
