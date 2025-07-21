@@ -1,0 +1,19 @@
+WORKING STEPS FOR SINGLY LINKED LIST :
+
+1 - Node Class :
+
+   > stores data and a reference to the next node...
+
+2 - Linked list class :
+
+   > manages operations line add,append,delete, search and shows display nodes...
+
+3 - append(data) :
+
+   > adds a new node to the end of the list...
+
+4 - display() :
+
+   > prints data in readable form .i.e ( Node1 -> Node2 -> Node3 -> None )...
+
+   

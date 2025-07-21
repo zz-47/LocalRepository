@@ -1,0 +1,19 @@
+Circular Linked List :
+
+    a variation of a standard linked list where the last node's pointer points back to the first node,
+     forming a circular loop.
+
+
+  Working steps (Additional) :   
+
+    > Uni Directional :
+
+        This type of linked list is uni directional , yet it works in a circular pattren.
+       
+       >> We can traverse the list in one direction only.
+       >> We can't traverse the list in the reverse direction.
+
+    > Connects Tail to head at the end :
+
+       >> As it continues to the end of list it connects the tail to the head.
+       >> It resembles to ring topology , but we're dealing with lists.

@@ -1,0 +1,33 @@
+LINKED LIST :
+
+
+   a linear data structure that stores a sequence of elements, called nodes, linked together by pointers
+
+
+Types of Linked Lists:
+
+> Singly linked list:
+
+    Each node contains data and a pointer to the next node in the sequence. This is the simplest form of a linked list. 
+
+
+> Doubly linked list:
+
+    Each node contains data, a pointer to the next node, and a pointer to the previous node. This allows for traversal 
+     in both directions. 
+
+
+> Circular linked list:
+     
+    The last node points back to the first node, creating a circular structure. This can be either singly or
+     doubly linked. 
+
+
+     Pointer DISCLAIMER :
+
+      References to Mutable Objects:
+        
+        When dealing with mutable objects (like lists, dictionaries, or custom objects), changes made through one
+         reference are visible through all other references to the same object. This behavior is similar to how pointers 
+          work in C/C++ when modifying data through a pointer.i.e if we are pointing at a list , then if chnages are made 
+           the pointer will also point to the changed list...        

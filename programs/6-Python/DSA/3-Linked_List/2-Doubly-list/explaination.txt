@@ -1,0 +1,21 @@
+The differnce b/w the singly and doubly linked list is that 
+ 
+  Doubly linked list has two pointers and is bi-directional , while singly linked list is uni-directional.
+
+  Working steps (Additional):
+
+  > Two Pointers Per node :
+
+      one pointer is used to point to the previous node and the other to point to the next node.
+ 
+  > Bi-Directional Traversal :
+
+      The traversal of nodes is possible in both the directions :
+
+      >> head to tail
+      >> tail to head
+
+  > Efficent Insertion and Deletion :
+
+      insertion and deletion are done efficently in doubly linked list , and time complexity is O(1),
+       while in singly it reaches O(n).    

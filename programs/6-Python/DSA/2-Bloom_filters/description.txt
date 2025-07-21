@@ -1,0 +1,71 @@
+1- Simple Bloom Filters >>>>
+
+bloom filters are data structures that are used to check whether an element is present in a set. by using individual
+hash functions. that scan bits for a specific set of a set .i.e (X, Y, Z) , it is a probabilistic data structure.
+each element has a unique hash function that is used to determine if an element is present in the set.
+there's a checking mechanism that checks if the element is present in the set or not.
+it has a false positive rate, which is the probability that an element that is not present in the set is
+considered present. if  any index of array is zero then it is a false positive.
+
+bloom filters can also be used as destibuted nodes known as distibutive bloom filters.
+it has complexity of O(k) / size of bloom filters.
+
+types of bloom filters are:
+
+
+     SimpleBloomFilter
+     SparseBloomFilter
+     Counting Bloom Filter
+     Cuckoo Filter
+
+     they can also be reversed...
+
+
+
+     working >>>
+
+
+         it starts by scaning a array of bits down to each index/indencies changing the status of
+         bits using 1 and 0
+
+
+2- invertable Bloom filters >>>>>
+
+
+    bloom filters are invertable if the hash functions are invertable. invertable bloom filters have a look up table
+    having functionalities of :
+
+        >> INSERT(KEY, VALUE)
+        >> DELETE(KEY, VALUE)
+        >> GET(KEY) -> VALUE
+        >> LIST() -> [(KEY, VALUE)]
+
+    it can also add and delete , yet recover the element
+
+    > Set Difference Computation:
+    
+    IBFs are particularly useful for computing the difference between two sets. 
+    By creating IBFs for both sets and then performing a difference operation (usually XOR), 
+    the distinct elements can be efficiently identified. 
+
+    > Reconciliation:
+
+    Invertible Bloom Filters (IBFs) enable efficient reconciliation of data sets between two parties by encoding 
+    set differences into a compact data structure. When two parties have slightly different versions of a dataset,
+     they can each create an IBF representing their respective changes, exchange them, and 
+     then perform XOR operations to identify the differences. 
+
+    > Rateless Invertible Bloom Filters:
+    
+    Rateless IBLT is based on a novel encoder that incrementally encodes the set difference into an infinite
+    stream of coded symbols,resembling rateless error-correcting codes. We compare Rateless IBLT with 
+    state-of-the-art set reconciliation schemes and demonstrate significant improvements.
+
+
+
+    >>> Symbol Sequence properties :
+
+
+     Decodeable
+     Linear
+     Universal
