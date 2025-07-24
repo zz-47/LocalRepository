@@ -1,0 +1,14 @@
+ndarray (N-dimensional array): NumPy is a powerful library for numerical computing in Python, and its core data structure 
+is the ndarray. NumPy arrays are highly optimized for numerical operations and can be:
+
+
+   > 0D (Zero-dimensional) / Scalar: A single element.
+   
+   > 1D (One-dimensional) / Vector: A linear sequence of elements.
+   
+   > 2D (Two-dimensional) / Matrix: A table-like structure with rows and columns.
+
+   > 3D (Three-dimensional) / Tensor: Used for data with three dimensions, like color images.
+   
+   > Higher-dimensional arrays: NumPy supports arrays with any number of dimensions, allowing for the
+     representation of complex datasets.

@@ -1,0 +1,21 @@
+The conceptual types of Arrays applicable without both the Array module & Numpy module.
+
+Types of conceptual Arrays :
+
+> Fixed-size arrays:
+
+   Arrays where the size is determined at creation and cannot be easily changed (more characteristic of the array module
+    and some NumPy array creation methods).
+
+
+> Dynamic-sized arrays:
+
+  Arrays that can be resized after creation (Python lists are inherently dynamic, and NumPy arrays can be dynamically 
+   resized through various operations, although it might involve creating new arrays in memory).
+
+
+
+   Python's built-in list serves as a general-purpose sequence, when discussing "types of arrays" in Python,
+    one typically refers to the specialized, often more efficient, data structures provided by the array module and,
+     more commonly, the NumPy library, which offer various dimensionalities and performance characteristics suitable 
+      for different applications.

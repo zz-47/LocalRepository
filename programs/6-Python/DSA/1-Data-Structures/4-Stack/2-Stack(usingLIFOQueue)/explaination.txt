@@ -1,0 +1,4 @@
+This type of Stack uses LIFO QUEUE form Queue module
+
+and This method is not Thread safe , at the area / function dealing with peek
+ and we have to move around to work with peek functons.

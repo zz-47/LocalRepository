@@ -1,0 +1,12 @@
+In Python, while the built-in list is a versatile and commonly used data structure that can function 
+similarly to arrays in other languages, there are also dedicated "array-like" structures available, primarily
+ through the array module and the NumPy library.
+
+ Types of implementation :
+
+ 1- Based on the array module
+
+ 2- Based on NumPy (Numerical Python)
+
+ 3- Conceptual Types (applicable to both array module and NumPy)
+ 

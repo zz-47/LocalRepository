@@ -1,0 +1,5 @@
+In this program , we will use deque ( Double Ended Queue ) function , it is a list like container .
+and is part of collections module . 
+
+we are working with deque() for fast and efficent push and pop operations from both ends of the deque .
+This method is thread safe and contains peek method as well as other ones in a stack.

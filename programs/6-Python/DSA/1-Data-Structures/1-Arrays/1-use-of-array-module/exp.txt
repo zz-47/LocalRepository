@@ -1,0 +1,3 @@
+Efficient arrays of numeric values: The array module provides a way to create arrays that are more memory-efficient
+ than lists when storing large sequences of numeric data of the same type. These arrays are typed, meaning they can only
+  store elements of a specific data type (e.g., integers, floats, Unicode characters) as defined by a "typecode."
