@@ -8,6 +8,21 @@ This repository is all about :
 
 
    SQL language experience
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+   # LocalRepository
 
-   Web Dev experimentaion experience
+## Overview
+`LocalRepository` is a collection of utilities and functions designed to streamline various local operations, such as file management, data processing, and automation tasks. This repository serves as a base for handling basic local workflows efficiently.
+
+## Dependencies
+This project has the following dependencies:
+- `numpy`: For numerical operations.
+- `pandas`: For data manipulation.
+- `os`: For file system operations (Standard Python Library).
+- `shutil`: For high-level file operations (Standard Python Library).
+
+To install these dependencies, use the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
