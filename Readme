@@ -1,16 +1,4 @@
-This repository is all about :
-
-   C language experience
-
-   C++ language experience
-
-   OOPS in C++ language experience
-
-
-   SQL language experience
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-   # LocalRepository
+# LocalRepository
 
 ## Overview
 `LocalRepository` is a collection of utilities and functions designed to streamline various local operations, such as file management, data processing, and automation tasks. This repository serves as a base for handling basic local workflows efficiently.
